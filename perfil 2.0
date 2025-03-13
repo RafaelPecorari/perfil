@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael repositorio</title>
+    <style>
+        body{
+            background-color: rgb(14, 13, 13);
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section,div{
+            background-color: white;
+            text-align: center;            
+            width:200px;
+            padding: 40px; ;
+            border-radius: 20px;
+
+        }
+        .center {
+            margin: auto;
+            width: 50%;
+            border: 3px solid green;
+            padding: 10px;
+        }
+        section{
+            background-color: rgb(53, 53, 53);
+        }
+        div {
+            padding: 10px;
+            width: auto;
+            margin: auto;
+            background-color: rgb(87, 87, 87);
+            border: 5px;            
+        }
+        #rcorners2 {
+            border-radius: 25px;
+            border: 2px;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        h1{
+            color: whitesmoke;
+        }
+        h2{
+            color: rgba(106, 255, 37, 0.753);
+        }
+    </style>
+</head>
+<body>
+    <section >
+    <h1>Rafael Pecorari</h1>
+    <h2> Sorocaba-SP</h2>
+    <h3>back-end developer and data analytics</h3>
+    <div class="link" name="viewport" content="width=device-width, initial-scale=1.0">
+        <h1> github </h1>
+    </div>
+    <div class="link">
+        <h1> back-end mentor </h1>
+    </div>
+    <div class="link">
+        <h1> linkedin </h1>
+    </div>
+    <div class="link">
+        <h1> reddit </h1>
+    </div>
+    <div class="link">
+        <h1> instagram </h1>
+    </div>
+</section>
+</body>
+</html>
